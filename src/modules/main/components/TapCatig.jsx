@@ -6,7 +6,7 @@ function TapCatig() {
   return (
     <>
     <section className='FQ-catig'>
-        <h2>Browse Top Category</h2>
+        <h2  data-aos="flip-left">Browse Top Category</h2>
         <div className='all-cards'>
             <CatigurisCard title = {"Science"}  descrip = {"3,234 course"}/>
             <CatigurisCard title = {"Business"}  descrip = {"3,234 course"}/>

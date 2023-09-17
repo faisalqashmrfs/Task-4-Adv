@@ -6,8 +6,8 @@ function ClassEducation() {
   return (
     <section className='ClassEducation-fq'>
         <div>
-            <h2>We Have Best Education </h2>
-            <p>Far far away , behind the word mountains , far form the countries Vokalia and Consonantia , there the blind texts.</p>
+            <h2 data-aos="fade-right">We Have Best Education </h2>
+            <p data-aos="fade-left">Far far away , behind the word mountains , far form the countries Vokalia and Consonantia , there the blind texts.</p>
         </div>
         <div className='all-cards'>
         <CatigurisCard title = {"Music Class"}  descrip = {"Far far away , behind the word mountains , far form the countries Vokalia and Consonantia , there the blind texts."}/>

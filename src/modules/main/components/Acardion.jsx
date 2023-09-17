@@ -5,10 +5,10 @@ import Fimg from './../assets/img/background-home.jpg'
 function Acardion() {
   return (
     <section className='Acardion-fqf'>
-    <div className='fq-photo-right'>
+    <div className='fq-photo-right' data-aos="fade-right">
         <img src={Fimg} alt='' />
     </div>
-    <div className='fq-acardion-left'>
+    <div className='fq-acardion-left' data-aos="fade-left">
         <h2>Why Choose Us</h2>
         <p>Far far away , behind the word mountains , far form the countries Vokalia and Consonantia , there the blind texts.</p>
         <div class="accordion" id="accordionPanelsStayOpenExample">

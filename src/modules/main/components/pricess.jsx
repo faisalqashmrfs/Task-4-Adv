@@ -5,13 +5,13 @@ function Pricess() {
   return (
     <section class="pricing mt-5" id="pricing">
       <div class="container">
-        <h2 class="text-primary  text-center mb-4 hidden"> Pricing</h2>
-        <p class="text-secondary text-center m-auto w-50 hidden">Lorem ipsum, dolor sit amet consectetur
+        <h2 class="text-primary  text-center mb-4 hidden" data-aos="fade-down"> Pricing</h2>
+        <p class="text-secondary text-center m-auto w-50 hidden" data-aos="fade-up">Lorem ipsum, dolor sit amet consectetur
           sit amet consectetus Et atque quas adipisicing elit. Et atque quas
           i assumenda poss </p>
 
         <div class="row mt-5">
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden" data-aos="fade-up-right">
             <div class="card text-center p-3  shadow m-auto" style={{width: '18rem'}}>
               <div class="card-body">
                 <h4 class="card-title text-primary mb-3">Starter</h4>
@@ -24,7 +24,7 @@ function Pricess() {
               <div class="overlay"></div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden" data-aos="fade-up">
             <div class="card text-center p-3  shadow m-auto" style={{width: '18rem'}}>
               <div class="card-body">
                 <h4 class="card-title text-primary mb-3">Bussines</h4>
@@ -36,7 +36,7 @@ function Pricess() {
               <div class="overlay"></div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden" data-aos="fade-up-left">
             <div class="card text-center p-3 m-auto  shadow" style={{width: '18rem'}}>
               <div class="card-body">
                 <h4 class="card-title text-primary mb-3">Preufiom</h4>

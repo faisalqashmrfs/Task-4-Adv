@@ -7,7 +7,7 @@ function AboutUsHome() {
   return (
     <section className='AboutUsHome'>
         <div className='container'>
-            <div className='left-fq-desc hidden'>
+            <div className='left-fq-desc hidden' data-aos="fade-right">
                 <h2>About Us</h2>
                 <p className='para2'>Far far away , behind the word mountains , far form the countries Vokalia and Consonantia , there the blind texts.</p>
                 <p className='para1'><i class="fa-solid fa-check" style={{color: '#2070d7'}}></i> <span>Behind the word Mountains .</span></p>
@@ -32,7 +32,7 @@ function AboutUsHome() {
                     <button className='btn2-fq'>LEARN MORE</button>
                 </div>
             </div>
-            <div className='vedio-fq-shadow'><img src={imgf}/></div>
+            <div className='vedio-fq-shadow' data-aos="fade-left"><img src={imgf}/></div>
         </div>
     </section>
   )
